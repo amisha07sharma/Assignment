@@ -3,3 +3,23 @@ fileignoreconfig:
   checksum: faab62836a2dd28568ad065209462c018ebf4763188196392a14bc1a0e476b13
 - filename: backend/go.sum
   checksum: e21f08e524769ddcc1c04e8a134494762bf26c38509f57712c2b44a788c1cad8
+- filename: frontend/.env
+  checksum: 2b26c36173bccca3f3fe92fba8e19416438b73566a1cafb213afbf43c7005e7e
+- filename: frontend/yarn.lock
+  checksum: 315080f357567f49b1af206c0d06a96cead63b0c63465cad2caf2948dc774251
+- filename: frontend/package-lock.json
+  checksum: 092c49da738afe3c4eede95eaddc9033894afa1ad7aebdcd984716b53a2c8e3c
+- filename: frontend/src/components/TableComponent.js
+  checksum: a462f52ad38a60f0720c4665cb02edafa0074358f5b27ede891d44abc5c71505
+- filename: frontend/build/static/css/main.346c78aa.css
+  checksum: 0f03512c3587f5bf1f9e5a9fa86e9f66ddbf2d60a5baeef45863b01990f60d4e
+- filename: frontend/build/static/css/main.346c78aa.css.map
+  checksum: 391d202d031d4f3e925283157340f4686791d9771538bd3b2bdf9fcb042f8f6b
+- filename: frontend/build/static/js/787.774729bc.chunk.js
+  checksum: 13c9ef7c1872ccd8be73df895442d2a4f175f5fe4c6cc1a80b1514161b906da2
+- filename: frontend/build/static/js/787.774729bc.chunk.js.map
+  checksum: 2adbcbdfc8f0d70f2c024a353baacb8ef7a84400a22c69350e0300133ca15ee1
+- filename: frontend/build/static/js/main.57495999.js
+  checksum: 83be06df55f02595bb863678a995c050106bdc718bbf1f56f955ba56ebc4fc9b
+- filename: frontend/build/static/js/main.57495999.js.map
+  checksum: a879a12e05db26fc8ad87be830a3417c242f6c3fe6b17f158034feedadb09438
