@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: frontend
+  checksum: faab62836a2dd28568ad065209462c018ebf4763188196392a14bc1a0e476b13
+- filename: backend/go.sum
+  checksum: e21f08e524769ddcc1c04e8a134494762bf26c38509f57712c2b44a788c1cad8
