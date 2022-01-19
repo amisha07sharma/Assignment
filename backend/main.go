@@ -23,8 +23,8 @@ type Human struct {
 }
 
 type CreateHumanInput struct {
-	Name    string `json:"name" binding:"required"`
-	Message string `json:"message" binding:"required"`
+	Name    string `json:"name" binding:"required,min=3,max=20,alpha"`
+	Message string `json:"message" binding:"required,min=3,max=100,alphanum"`
 }
 
 var DB *gorm.DB
