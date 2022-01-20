@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 	"net/http/httptest"
 	"testing"
@@ -35,31 +36,31 @@ func TestGetMethod(t *testing.T) {
 	}
 }
 
-// func TestPostMethod(t *testing.T) {
+func TestPostMethod(t *testing.T) {
 
-// 	gin.SetMode(gin.TestMode)
+	gin.SetMode(gin.TestMode)
 
-// 	r := gin.Default()
+	r := gin.Default()
 
-// 	ConnectDatabase()
+	ConnectDatabase()
 
-// 	r.POST("/person", CreatePerson)
+	r.POST("/person", CreatePerson)
 
-// 	req, err := http.NewRequest(http.MethodPost, "/person", nil)
+	req, err := http.NewRequest(http.MethodPost, "/person", nil)
 
-// 	if err != nil {
-// 		t.Fatalf("Couldn't create request: %v\n", err)
-// 	}
+	if err != nil {
+		t.Fatalf("Couldn't create request: %v\n", err)
+	}
 
-// 	w := httptest.NewRecorder()
+	w := httptest.NewRecorder()
 
-// 	r.ServeHTTP(w, req)
+	r.ServeHTTP(w, req)
 
-// 	fmt.Println(w.Body)
+	fmt.Println(w.Body)
 
-// 	if w.Code == http.StatusOK {
-// 		t.Logf("Expected to get status %d is same ast %d\n", http.StatusOK, w.Code)
-// 	} else {
-// 		t.Fatalf("Expected to get status %d but instead got %d\n", http.StatusOK, w.Code)
-// 	}
-// }
+	if w.Code == http.StatusOK {
+		t.Logf("Expected to get status %d is same ast %d\n", http.StatusOK, w.Code)
+	} else {
+		t.Fatalf("Expected to get status %d but instead got %d\n", http.StatusOK, w.Code)
+	}
+}

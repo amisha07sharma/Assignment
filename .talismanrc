@@ -23,3 +23,6 @@ fileignoreconfig:
   checksum: 83be06df55f02595bb863678a995c050106bdc718bbf1f56f955ba56ebc4fc9b
 - filename: frontend/build/static/js/main.57495999.js.map
   checksum: a879a12e05db26fc8ad87be830a3417c242f6c3fe6b17f158034feedadb09438
+- filename: frontend/package-lock.json
+  checksum: 63b9a095897f249692cf02762208365fbd66a24ae22e02e7c70b39e75cfefccc
+
